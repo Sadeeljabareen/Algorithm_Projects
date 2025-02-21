@@ -1,0 +1,43 @@
+/* application.css */
+.root {
+    -fx-font-family: "Segoe Print";
+    -fx-background-color: #f0f0f0; /* Light background */
+}
+
+.label {
+    -fx-text-fill: #333; /* Dark text color */
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-background-color: #ff6800; /* Button color */
+    -fx-text-fill: white;
+    -fx-border-radius: 25;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+}
+
+.button:hover {
+    -fx-background-color: #ff8c00; /* Hover effect */
+}
+
+.toggle-button {
+    -fx-background-color: #d8d9e0;
+    -fx-text-fill: #333;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #ff6800; /* Selected state */
+    -fx-text-fill: white;
+}
+
+.text-area {
+    -fx-border-color: #d8d9e0; 
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+}
+
+.combo-box {
+    -fx-background-color: white; 
+    -fx-border-color: #d8d9e0; 
+}
